@@ -31,5 +31,10 @@ public class EmpAPIController {
     public EmpDto updateEmp(@RequestBody EmpDto updateEmpDto, @PathVariable("empno") Integer empno) {
         return empService.updateEmp(updateEmpDto, empno);
     }
+    
+    @DeleteMapping("/emp/{empno}")
+    public Emp deleteEmp(@PathVariable Integer empno) {
+        return empService.deleteEmp(empno);
+    }
 
 }
