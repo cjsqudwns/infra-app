@@ -45,4 +45,13 @@ public class EmpService {
         return EmpDto.from(emp);
 
     }
+    
+    
+    @Transactional
+    public Emp deleteEmp(Integer empno) {
+        Emp emp = empRepository.findById(empno)
+                .orElseThrow(() -> new EntityNotFoundException("사원이 존재하지 않습니다. empno=" + empno));
+        empRepository.delete(emp);
+        return emp;
+    }
 }
