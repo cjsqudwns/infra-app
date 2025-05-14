@@ -1,9 +1,0 @@
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/AppApplication.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/api/controller/DeptAPIController.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/api/controller/EmpAPIController.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/entity/Dept.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/entity/Emp.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/repository/DeptRepository.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/repository/EmpRepository.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/service/DeptService.java
-/Users/cheonbyeongjun/Desktop/BootCamp/99.practice/WebBoard/app/src/main/java/app/service/EmpService.java
